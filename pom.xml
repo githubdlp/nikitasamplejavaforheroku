@@ -77,6 +77,10 @@
                             <jvmSettings>
                                 <systemProperties>
                                     <systemProperty>java.security.egd=file:///dev/urandom</systemProperty>
+                                    <systemProperty>-agentlib:jdwp=transport=dt_socket</systemProperty>
+                                    <systemProperty>server=y</systemProperty>
+                                    <systemProperty>address=9090</systemProperty>
+                                    <systemProperty>suspend=n</systemProperty>
                                 </systemProperties>
                             </jvmSettings>
                         </program>
