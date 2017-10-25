@@ -68,6 +68,7 @@
                 <artifactId>appassembler-maven-plugin</artifactId>
                 <version>1.10</version>
                 <configuration>
+                    <extraJvmArguments>-agentlib:jdwp=transport=dt_socket server=y address=9090 suspend=n</extraJvmArguments>
                     <assembleDirectory>target</assembleDirectory>                                        
                     <programs>
                         <program>
