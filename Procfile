@@ -1,1 +1,1 @@
-web: sh target/start1
+web: sh target/bin/start1
